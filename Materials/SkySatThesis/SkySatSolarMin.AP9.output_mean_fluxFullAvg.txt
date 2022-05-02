@@ -1,0 +1,17 @@
+# Ae9Ap9 Model output file: SkySatThesis/SkySatSolarMin.AP9.output_mean_fluxFullAvg.txt
+# Ae9Ap9 Software Version:  1.55.002
+#
+# Model type:               AP9
+# Particle species:         H+
+# Flux type:                1PtDiff
+# Flux direction:           Omnidirectional
+# Energy levels (MeV):       0.1 0.2 0.4 0.6 0.8 1 2 4 6 8 10 15 20 30 50 60 80 100 150 200 300 400 700 1200 2000
+#
+# Accumulation mode:        Full, length = [full time duration]
+#
+# Time format:              Modified Julian Date
+# Coordinate system:        GEI (Geocentric Equatorial Inertial) Cartesian in Earth radii
+# Data Delimiter:           comma
+#
+# datetime(mjd),posx(Re),posy(Re),posz(Re),flux,flux,flux,flux,flux,flux,flux,flux,flux,flux,flux,flux,flux,flux,flux,flux,flux,flux,flux,flux,flux,flux,flux,flux,flux(#/cm^2/s/MeV)
+54814.50000000,0.00000000,0.00000000,0.00000000,7.37637099e+03,5.37721532e+03,3.07626796e+03,1.85773980e+03,1.26415093e+03,6.20300584e+02,2.09803147e+02,8.11253995e+01,4.34683410e+01,3.04868943e+01,2.02295416e+01,1.37578601e+01,8.64369233e+00,5.56611255e+00,3.90016913e+00,2.92425381e+00,2.34209667e+00,1.52929717e+00,9.17510136e-01,4.61192146e-01,2.15425078e-01,3.57055423e-02,2.99239138e-03,3.32347941e-05,4.72497625e-07

@@ -1,0 +1,8 @@
+# plot data from Model: AE9/AP9
+# data delimiter: comma
+# flux dir: omni
+# Y-axis data is: Dose (rads)
+# Thickness (mils) 'mean Total Dose at 0 min'
+3.937,0.00000000e+00
+10,0.00000000e+00
+80,0.00000000e+00

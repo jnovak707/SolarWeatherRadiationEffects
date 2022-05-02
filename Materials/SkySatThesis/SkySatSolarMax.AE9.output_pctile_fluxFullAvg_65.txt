@@ -1,0 +1,17 @@
+# Ae9Ap9 Model output file: SkySatThesis/SkySatSolarMax.AE9.output_pctile_fluxFullAvg_65.txt
+# Ae9Ap9 Software Version:  1.55.002
+#
+# Model type:               AE9
+# Particle species:         e-
+# Flux type:                1PtDiff
+# Flux direction:           Omnidirectional
+# Energy levels (MeV):       0.04 0.07 0.1 0.25 0.5 0.75 1 1.5 2 2.5 3 3.5 4 4.5 5 5.5 6 6.5 7 8.5 10
+#
+# Accumulation mode:        Full, length = [full time duration]
+#
+# Time format:              Modified Julian Date
+# Coordinate system:        GEI (Geocentric Equatorial Inertial) Cartesian in Earth radii
+# Data Delimiter:           comma
+#
+# datetime(mjd),posx(Re),posy(Re),posz(Re),flux,flux,flux,flux,flux,flux,flux,flux,flux,flux,flux,flux,flux,flux,flux,flux,flux,flux,flux,flux,flux(#/cm^2/s/MeV)
+56761.50000000,0.00000000,0.00000000,0.00000000,7.41312360e+06,6.43952369e+06,3.15128300e+06,6.15728499e+05,7.09278844e+04,1.13065377e+04,2.93153288e+03,6.47304480e+02,1.46914382e+02,4.00453668e+01,1.56150021e+01,6.24676701e+00,2.35828601e+00,9.47011884e-01,3.97360415e-01,1.88491215e-01,9.68494805e-02,5.65822801e-02,2.65766808e-02,9.05811856e-03,4.16351411e-03

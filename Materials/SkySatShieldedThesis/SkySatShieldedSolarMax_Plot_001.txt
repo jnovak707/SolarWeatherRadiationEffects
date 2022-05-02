@@ -1,0 +1,7 @@
+# plot data from Model: AE9/AP9
+# data delimiter: comma
+# flux dir: omni
+# Y-axis data is: Dose Rate (rads/sec)
+# Time (min) 'Total Dose Rate at 10.00 mils'
+0,0.00000000e+00
+18720,8.56798155e-03

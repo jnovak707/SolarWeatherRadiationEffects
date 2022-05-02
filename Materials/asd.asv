@@ -1,0 +1,65 @@
+
+
+fit_params=[];          %at the end, we want a list of fit parameters for each shielding level so we can interpolate for a desired level
+for ii=1:length(depths) %so for each shielding level
+        radAccum=[];    %we're going to find how many krads were accumulated...    
+        for i=1:length(storm)  %for each storm
+            radAccum=horzcat(radAccum,storm(i).stormKrad(1,ii)); %so that we have an array of all the krad for each storm at the current shielding level
+        end
+        Const = polyfit(log10([storm(:).NOAA_PFU]),log10(radAccum),1);%fit the log-log space curve, so now we relate PFU to amount of radiation expected at that shielding level
+        m = Const(1); fit_params(ii,1)=m;%save our fit parameters so we can interpolate with them later
+        k = Const(2); fit_params(ii,2)=k;
+        %extrapolated_doses = 10.^(m.*log10([1:50000])+(k)); 
+        %not neccessary but this is how we would check if the extrapolation
+        %was a good 
+end
+fit_params=horzcat(fit_params,depths');
+figure()
+hold on
+plot(fit_params(:,3),fit_params(:,1))
+plot(fit_params(:,3),fit_params(:,2))
+desired_shielding_m=interp1(fit_params(:,3),fit_params(:,2),350)
+
+
+
+%         figure()
+%         hold on
+%         
+%         for ii=storm(i).Depths%length(storm(1).Depths);
+%         depth=[];
+%         for i=1:length(storm)  
+%             depth=horzcat(depth,storm(i).stormKrad(1,ii));
+%         end
+%         Const = polyfit(log10([storm(:).NOAA_PFU]),log10(depth),1);%fit the log-log space curve
+%         m = Const(1); fit_params(i,1)=m;
+%         k = Const(2); fit_params(i,2)=k;
+%         extrapolated_doses = 10.^(m.*log10([1:50000])+(k));%extrapolate the fit to the 75 points
+%         scatter([storm(:).NOAA_PFU],depth)
+%         plot([1:50000],extrapolated_doses)
+%         set(gca,'XScale','log')
+%         set(gca,'YScale','log')
+%         end
+%         set(gcf,'DefaultAxesFontName','Times New Roman','DefaultAxesFontWeight','bold');
+%         set(gcf,'DefaultTextFontName','Times New Roman','DefaultAxesFontWeight','bold');
+%         set(gcf,'DefaultTextColor','black')
+%         xlabel('Proton Flux Units (PFU)','FontName','Times','FontWeight','bold', 'FontSize',26');
+%         ylabel('Dose (krad)','FontName','Times','FontWeight','bold', 'FontSize',26');
+%         legend("3.937 mil Calculated Doses","3.937 mils Shielding Fitted Doses, Dose=10^{0.0002*log10(PFU)+(0.1252)}", "80 mil Shielding Calculated Doses","80 mil Shielding Fitted Doses, Dose=10^{1.2655*log10(PFU)+(-6.6152)}",'location','best')
+%         a= get(gca,'XTickLabel');
+% set(gca,'XTickLabel',a,'FontName','Times','fontsize',26)
+% a= get(gca,'YTickLabel');
+% set(gca,'YTickLabel',a,'FontName','Times','fontsize',26)
+%         depth=[];
+%         for i=1:length(storm)  
+%             depth=horzcat(depth,storm(i).stormKrad(1,ii));
+%         end
+%         Const = polyfit(log10([storm(:).NOAA_PFU]),log10(depth),1);%fit the log-log space curve
+%         m = Const(1); fit_params(i,1)=m;
+%         k = Const(2); fit_params(i,2)=k;
+%         extrapolated_doses = 10.^(m.*log10([1:50000])+(k));%extrapolate the fit to the 75 points
+%         scatter([storm(:).NOAA_PFU],depth,'blue')
+%         plot([1:50000],extrapolated_doses,'blue')
+%         set(gca,'XScale','log')
+%         set(gca,'YScale','log')
+%         end
+%         

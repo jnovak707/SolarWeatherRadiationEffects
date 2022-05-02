@@ -1,0 +1,23 @@
+# Ae9Ap9 Model output file: SkySatThesis/SkySatSolarMin.AE9.output_mean_doseaccumFull.txt
+# Ae9Ap9 Software Version:  1.55.002
+#
+# Model type:               AE9
+# Particle species:         e-
+# Flux type:                1PtDiff
+# Flux direction:           Omnidirectional
+# Energy levels (MeV):       0.04 0.07 0.1 0.25 0.5 0.75 1 1.5 2 2.5 3 3.5 4 4.5 5 5.5 6 6.5 7 8.5 10
+#
+# Accumulation mode:        Full, length = [full time duration]
+#
+# Dose calculation method:  Dose Kernel
+# Shielding geometry:       Spherical
+# Shielding depths (mils):   3.937 5 6 7 8 9 10 15 20 30 40 50 60 70 80 90 100 300 400 
+# Detector type:            Aluminum
+# Nuclear atten. mode:      None
+#
+# Time format:              Modified Julian Date
+# Coordinate system:        GEI (Geocentric Equatorial Inertial) Cartesian in Earth radii
+# Data Delimiter:           comma
+#
+# datetime(mjd),posx(Re),posy(Re),posz(Re),dose,dose,dose,dose,dose,dose,dose,dose,dose,dose,dose,dose,dose,dose,dose,dose,dose,dose,dose(rads)
+54814.50000000,0.00000000,0.00000000,0.00000000,0.00000000e+00,1.39990138e+04,1.14171231e+04,9.48316927e+03,8.00760215e+03,6.82816596e+03,5.87731126e+03,3.00576573e+03,1.68752383e+03,6.48592155e+02,3.06085060e+02,1.70388062e+02,1.05204629e+02,6.97885724e+01,4.71779219e+01,3.48214164e+01,2.33699370e+01,2.22882996e-01,1.37870325e-01

@@ -1,0 +1,17 @@
+# Ae9Ap9 Model output file: WorldViewThesis/WorldViewSolarMax.AE9.output_mean_fluenceFull.txt
+# Ae9Ap9 Software Version:  1.55.002
+#
+# Model type:               AE9
+# Particle species:         e-
+# Flux type:                1PtDiff
+# Flux direction:           Omnidirectional
+# Energy levels (MeV):       0.04 0.07 0.1 0.25 0.5 0.75 1 1.5 2 2.5 3 3.5 4 4.5 5 5.5 6 6.5 7 8.5 10
+#
+# Accumulation mode:        Full, length = [full time duration]
+#
+# Time format:              Modified Julian Date
+# Coordinate system:        GEI (Geocentric Equatorial Inertial) Cartesian in Earth radii
+# Data Delimiter:           comma
+#
+# datetime(mjd),posx(Re),posy(Re),posz(Re),fluence,fluence,fluence,fluence,fluence,fluence,fluence,fluence,fluence,fluence,fluence,fluence,fluence,fluence,fluence,fluence,fluence,fluence,fluence,fluence,fluence(#/cm^2/MeV)
+56754.50000000,0.00000000,0.00000000,0.00000000,4.22798428e+12,3.69658913e+12,1.96465264e+12,4.94178775e+11,8.46625454e+10,1.81435850e+10,5.40182916e+09,1.27779794e+09,3.13229210e+08,8.12730360e+07,2.89933496e+07,1.10317013e+07,4.18766154e+06,1.81786363e+06,7.66489271e+05,3.43636220e+05,1.63787200e+05,9.43593839e+04,4.71760113e+04,1.83485714e+04,9.71817802e+03

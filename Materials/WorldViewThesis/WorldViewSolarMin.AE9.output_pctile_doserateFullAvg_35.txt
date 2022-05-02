@@ -1,0 +1,23 @@
+# Ae9Ap9 Model output file: WorldViewThesis/WorldViewSolarMin.AE9.output_pctile_doserateFullAvg_35.txt
+# Ae9Ap9 Software Version:  1.55.002
+#
+# Model type:               AE9
+# Particle species:         e-
+# Flux type:                1PtDiff
+# Flux direction:           Omnidirectional
+# Energy levels (MeV):       0.04 0.07 0.1 0.25 0.5 0.75 1 1.5 2 2.5 3 3.5 4 4.5 5 5.5 6 6.5 7 8.5 10
+#
+# Accumulation mode:        Full, length = [full time duration]
+#
+# Dose calculation method:  Dose Kernel
+# Shielding geometry:       Spherical
+# Shielding depths (mils):   3.937 5 6 7 8 9 10 15 20 30 40 50 60 70 80 90 100 300 400 
+# Detector type:            Aluminum
+# Nuclear atten. mode:      None
+#
+# Time format:              Modified Julian Date
+# Coordinate system:        GEI (Geocentric Equatorial Inertial) Cartesian in Earth radii
+# Data Delimiter:           comma
+#
+# datetime(mjd),posx(Re),posy(Re),posz(Re),doserate,doserate,doserate,doserate,doserate,doserate,doserate,doserate,doserate,doserate,doserate,doserate,doserate,doserate,doserate,doserate,doserate,doserate,doserate(rads/s)
+54814.50000000,0.00000000,0.00000000,0.00000000,0.00000000e+00,1.44641176e-03,1.09286642e-03,8.46688360e-04,6.72523892e-04,5.40991851e-04,4.41497844e-04,1.78254705e-04,8.20096067e-05,2.35728637e-05,9.16343439e-06,4.56741575e-06,2.60375881e-06,1.69292139e-06,1.11429261e-06,1.07872149e-06,6.44857998e-07,6.71852552e-09,6.12974550e-09

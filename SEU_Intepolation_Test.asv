@@ -1,0 +1,33 @@
+Component_Type=3; %1 = Space-Grade, 2 = Space-Tolerant, 3 = COTS - only used for SEUs
+
+COTS_IDX_Config=contains(string(SEURatesData.DeviceName),'Kintex-7 Config');
+SpaceTolerantIDX_Config=contains(string(SEURatesData.DeviceName),'XCKU040 ConfigMem');
+SpaceGradeIDX_Config=contains(string(SEURatesData.DeviceName),'XQRKU060 Config');
+
+COTS_IDX_Block=contains(string(SEURatesData.DeviceName),'Kintex-7 blockRAM');
+SpaceTolerantIDX_Block=contains(string(SEURatesData.DeviceName),'XCKU040 BlockRAM');
+SpaceGradeIDX_Block=contains(string(SEURatesData.DeviceName),'XQRKU060 blockRAM');
+
+if Component_Type==1 %1 = Space-Grade, 2 = Space-Tolerant, 3 = COTS - only used for SEUs
+    idx_Config=SpaceGradeIDX_Config;
+    idx_Block=SpaceGradeIDX_Block;
+elseif Component_Type==2
+    idx_Config=SpaceTolerantIDX_Config;
+    idx_Block=SpaceTolerantIDX_Block;
+elseif Component_Type==3
+    idx_Config=COTS_IDX_Config;
+    idx_Block=COTS_IDX_Block;
+else
+    throw("Error: Not a valid component index");
+end
+
+fit_params=[];%just like dose: at the end, we want a list of fit parameters for each shielding level so we can interpolate for a desired level
+for ii=[unique(SEURatesData.Shielding)'] %so for each shielding level
+        Const = polyfit(unique(SEURatesData.StormLevel)',log10(SEURatesData.UpsetRateDeviceOrbit(SEURatesData.Shielding(idx_Block)==ii))+(SEURatesData.UpsetRateDeviceOrbit(SEURatesData.Shielding(idx_Config)==ii))');%fit the log-log space curve,(storm level is already in log space)
+        m = Const(1); k = Const(2);%save our fit parameters so we can interpolate with them later
+        fit_params=vertcat(fit_params,[m k ii]);
+        %extrapolated_doses = 10.^(m.*log10([1:50000])+(k)); %not neccessary but this is how we would check if the extrapolation was a good fit
+end
+
+sc_shielding_m_SEU=interp1(fit_params(:,3),fit_params(:,2),sc_shielding); %and we can use these to interpolate fit parameters for a user-specified shielding level
+sc_shielding_k_SEU=interp1(fit_params(:,3),fit_params(:,1),sc_shielding); %so when we stochastically generate a storm's PFU, we can translate that to the expected dose the spacecraft would receive with it's given shielding level (and orbit)

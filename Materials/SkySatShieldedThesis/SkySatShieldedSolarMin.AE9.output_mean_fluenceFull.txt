@@ -1,0 +1,17 @@
+# Ae9Ap9 Model output file: SkySatShieldedThesis/SkySatShieldedSolarMin.AE9.output_mean_fluenceFull.txt
+# Ae9Ap9 Software Version:  1.55.002
+#
+# Model type:               AE9
+# Particle species:         e-
+# Flux type:                1PtDiff
+# Flux direction:           Omnidirectional
+# Energy levels (MeV):       0.04 0.07 0.1 0.25 0.5 0.75 1 1.5 2 2.5 3 3.5 4 4.5 5 5.5 6 6.5 7 8.5 10
+#
+# Accumulation mode:        Full, length = [full time duration]
+#
+# Time format:              Modified Julian Date
+# Coordinate system:        GEI (Geocentric Equatorial Inertial) Cartesian in Earth radii
+# Data Delimiter:           comma
+#
+# datetime(mjd),posx(Re),posy(Re),posz(Re),fluence,fluence,fluence,fluence,fluence,fluence,fluence,fluence,fluence,fluence,fluence,fluence,fluence,fluence,fluence,fluence,fluence,fluence,fluence,fluence,fluence(#/cm^2/MeV)
+54814.50000000,0.00000000,0.00000000,0.00000000,8.81345533e+13,8.05075958e+13,4.93339410e+13,1.31902766e+13,1.88909795e+12,2.66001332e+11,6.17654524e+10,1.48207793e+10,3.62872709e+09,8.94565442e+08,3.03525698e+08,1.16836946e+08,4.71800021e+07,2.18820803e+07,9.88797084e+06,4.70375826e+06,2.38634752e+06,1.45852594e+06,8.19548779e+05,4.15059557e+05,2.64683900e+05

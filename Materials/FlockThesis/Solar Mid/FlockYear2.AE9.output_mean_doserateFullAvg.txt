@@ -1,0 +1,23 @@
+# Ae9Ap9 Model output file: FlockThesis/FlockYear2.AE9.output_mean_doserateFullAvg.txt
+# Ae9Ap9 Software Version:  1.55.002
+#
+# Model type:               AE9
+# Particle species:         e-
+# Flux type:                1PtDiff
+# Flux direction:           Omnidirectional
+# Energy levels (MeV):       0.04 0.07 0.1 0.25 0.5 0.75 1 1.5 2 2.5 3 3.5 4 4.5 5 5.5 6 6.5 7 8.5 10
+#
+# Accumulation mode:        Full, length = [full time duration]
+#
+# Dose calculation method:  Dose Kernel
+# Shielding geometry:       Spherical
+# Shielding depths (mils):   3.937 5 6 7 8 9 10 15 20 30 40 50 60 70 80 90 100 300 400 
+# Detector type:            Aluminum
+# Nuclear atten. mode:      None
+#
+# Time format:              Modified Julian Date
+# Coordinate system:        GEI (Geocentric Equatorial Inertial) Cartesian in Earth radii
+# Data Delimiter:           comma
+#
+# datetime(mjd),posx(Re),posy(Re),posz(Re),doserate,doserate,doserate,doserate,doserate,doserate,doserate,doserate,doserate,doserate,doserate,doserate,doserate,doserate,doserate,doserate,doserate,doserate,doserate(rads/s)
+55933.50000000,0.00000000,0.00000000,0.00000000,0.00000000e+00,7.10030331e-03,5.80216486e-03,4.83377627e-03,4.09749946e-03,3.50918905e-03,3.03455709e-03,1.58928767e-03,9.14622030e-04,3.69246208e-04,1.80679565e-04,1.02713388e-04,6.42053363e-05,4.28371113e-05,2.91245092e-05,2.13224761e-05,1.44683177e-05,1.29894883e-07,7.61819625e-08

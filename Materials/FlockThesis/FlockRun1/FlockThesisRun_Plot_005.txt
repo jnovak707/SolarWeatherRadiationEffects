@@ -1,0 +1,7 @@
+# plot data from Model: AE9/AP9
+# data delimiter: comma
+# flux dir: omni
+# Y-axis data is: Differential Flux (#/cm^2/MeV/sec)
+# Energy (MeV) 'mean Electron Differential Flux at 0 min'
+1,0.00000000e+00
+10,0.00000000e+00

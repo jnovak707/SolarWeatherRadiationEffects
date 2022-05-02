@@ -1,0 +1,17 @@
+# Ae9Ap9 Model output file: WorldViewThesis/WorldViewSolarMax.AP9.output_pctile_fluxFullAvg_65.txt
+# Ae9Ap9 Software Version:  1.55.002
+#
+# Model type:               AP9
+# Particle species:         H+
+# Flux type:                1PtDiff
+# Flux direction:           Omnidirectional
+# Energy levels (MeV):       0.1 0.2 0.4 0.6 0.8 1 2 4 6 8 10 15 20 30 50 60 80 100 150 200 300 400 700 1200 2000
+#
+# Accumulation mode:        Full, length = [full time duration]
+#
+# Time format:              Modified Julian Date
+# Coordinate system:        GEI (Geocentric Equatorial Inertial) Cartesian in Earth radii
+# Data Delimiter:           comma
+#
+# datetime(mjd),posx(Re),posy(Re),posz(Re),flux,flux,flux,flux,flux,flux,flux,flux,flux,flux,flux,flux,flux,flux,flux,flux,flux,flux,flux,flux,flux,flux,flux,flux,flux(#/cm^2/s/MeV)
+56754.50000000,0.00000000,0.00000000,0.00000000,3.95727194e+03,2.87347854e+03,1.63273709e+03,9.64862543e+02,6.45745550e+02,3.11423108e+02,1.06375750e+02,3.93371555e+01,1.95467595e+01,1.33021862e+01,8.69452932e+00,5.85869328e+00,3.46875391e+00,2.20024176e+00,1.48126457e+00,1.07805819e+00,8.43621243e-01,5.67387422e-01,3.54136841e-01,1.83767154e-01,8.61379055e-02,1.36228180e-02,1.09808241e-03,1.31888254e-05,2.43443859e-08

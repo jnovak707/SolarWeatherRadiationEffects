@@ -1,0 +1,23 @@
+# Ae9Ap9 Model output file: FlockThesis/FlockThesisRun.AP9.output_pctile_doserateFullAvg_35.txt
+# Ae9Ap9 Software Version:  1.55.002
+#
+# Model type:               AP9
+# Particle species:         H+
+# Flux type:                1PtDiff
+# Flux direction:           Omnidirectional
+# Energy levels (MeV):       0.1 0.2 0.4 0.6 0.8 1 2 4 6 8 10 15 20 30 50 60 80 100 150 200 300 400 700 1200 2000
+#
+# Accumulation mode:        Full, length = [full time duration]
+#
+# Dose calculation method:  ShieldDose2 Model
+# Shielding geometry:       Spherical
+# Shielding depths (mils):   3.937 5 6 7 8 9 10 15 20 30 40 50 60 70 80 90 100 300 400 
+# Detector type:            Aluminum
+# Nuclear atten. mode:      NuclearAndNeutrons
+#
+# Time format:              Modified Julian Date
+# Coordinate system:        GEI (Geocentric Equatorial Inertial) Cartesian in Earth radii
+# Data Delimiter:           comma
+#
+# datetime(mjd),posx(Re),posy(Re),posz(Re),doserate,doserate,doserate,doserate,doserate,doserate,doserate,doserate,doserate,doserate,doserate,doserate,doserate,doserate,doserate,doserate,doserate,doserate,doserate(rads/s)
+59593.94339120,0.00000000,0.00000000,0.00000000,9.76350930e-06,7.56918553e-06,6.16320995e-06,5.19038713e-06,4.71492240e-06,4.14900569e-06,3.49688048e-06,2.34711547e-06,1.66495852e-06,1.16622323e-06,9.04952287e-07,7.94702601e-07,6.45423654e-07,5.94998994e-07,5.17495209e-07,4.80447852e-07,4.70901512e-07,2.66144241e-07,2.15731248e-07

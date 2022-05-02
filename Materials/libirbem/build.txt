@@ -1,0 +1,3 @@
+make OS=osx ENV=gnu64 all
+cp source/onera_desp_lib_osx_x86_64.dylib .
+# may need to do something along these lines: https://www.cdslab.org/paramonte/notes/troubleshooting/xcrun-error-unable-to-find-utility-clang/

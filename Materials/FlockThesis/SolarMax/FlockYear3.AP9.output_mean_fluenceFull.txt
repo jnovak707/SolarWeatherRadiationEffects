@@ -1,0 +1,17 @@
+# Ae9Ap9 Model output file: FlockThesis/FlockYear3.AP9.output_mean_fluenceFull.txt
+# Ae9Ap9 Software Version:  1.55.002
+#
+# Model type:               AP9
+# Particle species:         H+
+# Flux type:                1PtDiff
+# Flux direction:           Omnidirectional
+# Energy levels (MeV):       0.1 0.2 0.4 0.6 0.8 1 2 4 6 8 10 15 20 30 50 60 80 100 150 200 300 400 700 1200 2000
+#
+# Accumulation mode:        Full, length = [full time duration]
+#
+# Time format:              Modified Julian Date
+# Coordinate system:        GEI (Geocentric Equatorial Inertial) Cartesian in Earth radii
+# Data Delimiter:           comma
+#
+# datetime(mjd),posx(Re),posy(Re),posz(Re),fluence,fluence,fluence,fluence,fluence,fluence,fluence,fluence,fluence,fluence,fluence,fluence,fluence,fluence,fluence,fluence,fluence,fluence,fluence,fluence,fluence,fluence,fluence,fluence,fluence(#/cm^2/MeV)
+56664.50000000,0.00000000,0.00000000,0.00000000,1.57667786e+09,1.14637173e+09,6.53208000e+08,3.86760135e+08,2.58560314e+08,1.26252766e+08,4.41693981e+07,1.61831021e+07,7.77877457e+06,5.11044075e+06,3.26432616e+06,2.15919441e+06,1.25363669e+06,7.90437264e+05,5.28020944e+05,3.81947766e+05,2.97158760e+05,2.00831096e+05,1.26303572e+05,6.59221963e+04,3.09126615e+04,5.09455935e+03,4.47032825e+02,5.67597330e+00,0.00000000e+00

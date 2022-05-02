@@ -1,0 +1,7 @@
+# plot data from Model: AE9/AP9
+# data delimiter: comma
+# flux dir: omni
+# Y-axis data is: Dose (rads)
+# Time (min) 'mean Total Dose at 3.937 mils' 'mean Total Dose at 10.00 mils' 'mean Total Dose at 80.00 mils'
+0,0.00000000e+00,0.00000000e+00,0.00000000e+00
+1440,1.25950280e+02,5.54264856e+01,1.06006805e+00

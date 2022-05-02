@@ -1,0 +1,17 @@
+# Ae9Ap9 Model output file: SkySatThesis/SkySatSolarMin.AP9.output_pctile_fluenceFull_65.txt
+# Ae9Ap9 Software Version:  1.55.002
+#
+# Model type:               AP9
+# Particle species:         H+
+# Flux type:                1PtDiff
+# Flux direction:           Omnidirectional
+# Energy levels (MeV):       0.1 0.2 0.4 0.6 0.8 1 2 4 6 8 10 15 20 30 50 60 80 100 150 200 300 400 700 1200 2000
+#
+# Accumulation mode:        Full, length = [full time duration]
+#
+# Time format:              Modified Julian Date
+# Coordinate system:        GEI (Geocentric Equatorial Inertial) Cartesian in Earth radii
+# Data Delimiter:           comma
+#
+# datetime(mjd),posx(Re),posy(Re),posz(Re),fluence,fluence,fluence,fluence,fluence,fluence,fluence,fluence,fluence,fluence,fluence,fluence,fluence,fluence,fluence,fluence,fluence,fluence,fluence,fluence,fluence,fluence,fluence,fluence,fluence(#/cm^2/MeV)
+54814.50000000,0.00000000,0.00000000,0.00000000,8.74867311e+09,6.37814523e+09,3.64644650e+09,2.19652679e+09,1.50023369e+09,7.32620844e+08,2.46181556e+08,9.56433077e+07,5.15850236e+07,3.64793639e+07,2.42955877e+07,1.65818119e+07,1.04235437e+07,6.70544481e+06,4.68721543e+06,3.51038070e+06,2.81160568e+06,1.83806421e+06,1.10420663e+06,5.55647928e+05,2.59394257e+05,4.15466163e+04,3.25637144e+03,3.49449675e+01,5.35661061e-01
