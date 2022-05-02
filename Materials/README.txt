@@ -30,6 +30,7 @@ Besides MATLAB, other pre-requisite required programs are:
 STK (Coverage) - for calculating revisit rates
 Libirbem - for SHIELDOSE-2 calculations
 AE9AP9 - for calculating background radiation
+Vallado and SGP4 - for propagation and orbital mechanics calculations
 
 --------------
 
