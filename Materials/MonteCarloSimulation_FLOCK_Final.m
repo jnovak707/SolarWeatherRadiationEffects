@@ -97,9 +97,9 @@ AoC_sat_initial=image_cap*marketable_ratio*download_ratio*cloud_coverage*(365/12
 AoC_sat=image_cap*marketable_ratio*download_ratio*cloud_coverage*(365/12);
 
 %Bathtub Curve based on Weibull Estimation of Lifecycle
-Reliability=zeros(1,length(full_period));
+Reliability=zeros(1,2*length(full_period));
 Reliability(1)=((K*exp(-(1/theta1)^beta1))+((1-K)*exp(-(1/theta2)^beta2)));
-for i=2:length(full_period)
+for i=2:2*length(full_period)
     Reliability(i)=(((K*exp(-((i)/theta1)^beta1))+((1-K)*exp(-((i)/theta2)^beta2))))/Reliability(i-1);
 end
 shielding_mass=((sc_shielding*0.00254)*2.7)*(sc_width*sc_length)/1000;
@@ -220,7 +220,7 @@ for MonteCarlo=1:NumMonteCarlos
         
         %Lifecycle Failures
         for p=1:length(sats.NumSats(Active))
-            Lifecycle_Fails=rand(sum(sats.NumSats(Active(p))),1)>Reliability(t);
+            Lifecycle_Fails=rand(sum(sats.NumSats(Active(p))),1)>Reliability(sats.Age(p)+1);
             sats.NumSats(Active(p))=sats.NumSats(Active(p))-sum(Lifecycle_Fails);
             Lifecycle_Failures(t)=Lifecycle_Failures(t)+sum(Lifecycle_Fails);
         end
